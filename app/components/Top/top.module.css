@@ -19,8 +19,9 @@
 
 .container h2 {
   font-size: 22px;
-  letter-spacing: 3px;
-  font-weight: 100;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-left: 10px;
 }
 
 .register,

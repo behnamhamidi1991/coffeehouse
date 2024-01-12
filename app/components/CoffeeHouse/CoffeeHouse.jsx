@@ -9,42 +9,26 @@ const CoffeeHouse = () => {
   return (
     <div className={styles.container}>
       <h2>Our Coffee House</h2>
-      <p>You can come and visit our amazing environment ... </p>
+      <p>
+        You can come and visit our amazing environment. What you can do in our
+        coffee house? If you need a place to study, there's a quiet study room
+        for you! No music or distraction!
+        <br />
+        If you are a fan of playing games, watching football etc. our coffee
+        house has a game and TV-room where you can enjoy.
+      </p>
+
       <div className={styles.imageContainer}>
         <div className={styles.boxContainer}>
           <Image src={image1} alt="coffee-shop" className={styles.imageItem} />
-          <p className={styles.imageDesc}>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
-            </span>{" "}
-            Facere ipsum aspernatur at, fugiat porro cumque laborum maiores ut
-            illo illum enim, temporibus eveniet recusandae nesciunt, labore unde
-            blanditiis doloremque inventore.
-          </p>
         </div>
 
         <div className={styles.boxContainer}>
           <Image src={image2} alt="coffee-shop" className={styles.imageItem} />
-          <p className={styles.imageDesc}>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
-            </span>{" "}
-            Facere ipsum aspernatur at, fugiat porro cumque laborum maiores ut
-            illo illum enim, temporibus eveniet recusandae nesciunt, labore unde
-            blanditiis doloremque inventore.
-          </p>
         </div>
 
         <div className={styles.boxContainer}>
           <Image src={image3} alt="coffee-shop" className={styles.imageItem} />
-          <p className={styles.imageDesc}>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
-            </span>
-            Facere ipsum aspernatur at, fugiat porro cumque laborum maiores ut
-            illo illum enim, temporibus eveniet recusandae nesciunt, labore unde
-            blanditiis doloremque inventore.
-          </p>
         </div>
       </div>
     </div>

@@ -1,7 +1,6 @@
 .container {
   padding: 50px 10%;
   margin: 100px 0;
-  height: 480px;
 }
 
 .container h2 {
@@ -30,28 +29,4 @@
   align-items: center;
   justify-content: center;
   position: relative;
-}
-
-.imageDesc {
-  margin: 10px 0;
-  background-color: #10171e89;
-  color: #fff;
-  font-size: 12px;
-  padding: 10px 20px;
-  line-height: 1.6;
-  position: absolute;
-  bottom: -30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 100%;
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  color: rgb(255, 241, 180);
-}
-
-.imageDesc span {
-  color: var(--yellow-100);
-  font-weight: 700;
 }

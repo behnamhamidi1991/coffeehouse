@@ -67,3 +67,25 @@
   width: 100%;
   padding: 0 10%;
 }
+
+@media screen and (max-width: 926px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+}
+
+@media screen and (max-width: 554px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10%;
+    gap: 20px;
+  }
+
+  .footer {
+    height: 100%;
+  }
+}

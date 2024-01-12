@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 :root {
   --bg-color: #fefefe;
   --primary-color: #10171e;
@@ -26,4 +30,13 @@ body {
   background: var(--red-500);
   transform-origin: 0%;
   z-index: 1000;
+}
+
+.goUp {
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+  color: var(--red-500);
+  font-size: 25px;
+  cursor: pointer;
 }

@@ -11,8 +11,8 @@ const CoffeeHouse = () => {
       <h2>Our Coffee House</h2>
       <p>
         You can come and visit our amazing environment. What you can do in our
-        coffee house? If you need a place to study, there's a quiet study room
-        for you! No music or distraction!
+        coffee house? If you need a place to study, there&apos;s a quiet study
+        room for you! No music or distraction!
         <br />
         If you are a fan of playing games, watching football etc. our coffee
         house has a game and TV-room where you can enjoy.

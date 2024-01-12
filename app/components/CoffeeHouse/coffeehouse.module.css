@@ -1,0 +1,51 @@
+.container {
+  padding: 0 10%;
+}
+
+.container h2 {
+  font-size: 31px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.container p {
+  margin-bottom: 30px;
+}
+
+.imageContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.imageItem {
+  border-radius: 12px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.imageDesc {
+  margin: 10px 0;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 13px;
+  padding: 10px 20px;
+  border-radius: 3px 8px;
+  width: 98%;
+}
+
+.imageDesc2 {
+  margin: 10px 0;
+  background-color: var(--red-500);
+  color: #fff;
+  font-size: 13px;
+  padding: 10px 20px;
+  border-radius: 3px 8px;
+  width: 98%;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

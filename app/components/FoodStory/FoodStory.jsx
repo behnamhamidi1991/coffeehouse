@@ -56,6 +56,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
           </SwiperSlide>
@@ -66,6 +67,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
           </SwiperSlide>
@@ -76,6 +78,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
           </SwiperSlide>
@@ -86,6 +89,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
           </SwiperSlide>
@@ -96,6 +100,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
           </SwiperSlide>
@@ -106,6 +111,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
           </SwiperSlide>
@@ -116,6 +122,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
           </SwiperSlide>
@@ -126,6 +133,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
           </SwiperSlide>

@@ -26,10 +26,8 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 export default function Slider() {
   return (
     <div className={styles.container}>
-      <h2>Menu Gallery</h2>
-      <p>Take a look at the magic we do in our coffee house ...</p>
       <Swiper
-        spaceBetween={30}
+        spaceBetween={10}
         loop={true}
         slidesPerView={3}
         centeredSlides={true}

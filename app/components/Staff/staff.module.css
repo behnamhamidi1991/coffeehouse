@@ -1,6 +1,6 @@
 .container {
   padding: 0 10%;
-  margin: 100px 0;
+  margin: 200px 0;
 }
 
 .container h2 {
@@ -16,11 +16,11 @@
 .imageContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15px;
+  grid-gap: 35px;
 }
 
 .imageBox {
-  border-radius: 10px 20px;
+  border-radius: 5px 10px;
   position: relative;
 }
 
@@ -28,7 +28,7 @@
   border-radius: 4px;
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
   padding: 3px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .social {
@@ -42,8 +42,8 @@
   border-radius: 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   position: absolute;
-  bottom: 16px;
-  left: 20px;
+  top: 16px;
+  left: -10px;
 }
 
 .social a {

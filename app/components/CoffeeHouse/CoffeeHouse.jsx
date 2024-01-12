@@ -14,9 +14,11 @@ const CoffeeHouse = () => {
         <div className={styles.boxContainer}>
           <Image src={image1} alt="coffee-shop" className={styles.imageItem} />
           <p className={styles.imageDesc}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-            ipsum aspernatur at, fugiat porro cumque laborum maiores ut illo
-            illum enim, temporibus eveniet recusandae nesciunt, labore unde
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+            </span>{" "}
+            Facere ipsum aspernatur at, fugiat porro cumque laborum maiores ut
+            illo illum enim, temporibus eveniet recusandae nesciunt, labore unde
             blanditiis doloremque inventore.
           </p>
         </div>
@@ -24,9 +26,11 @@ const CoffeeHouse = () => {
         <div className={styles.boxContainer}>
           <Image src={image2} alt="coffee-shop" className={styles.imageItem} />
           <p className={styles.imageDesc}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-            ipsum aspernatur at, fugiat porro cumque laborum maiores ut illo
-            illum enim, temporibus eveniet recusandae nesciunt, labore unde
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+            </span>{" "}
+            Facere ipsum aspernatur at, fugiat porro cumque laborum maiores ut
+            illo illum enim, temporibus eveniet recusandae nesciunt, labore unde
             blanditiis doloremque inventore.
           </p>
         </div>
@@ -34,9 +38,11 @@ const CoffeeHouse = () => {
         <div className={styles.boxContainer}>
           <Image src={image3} alt="coffee-shop" className={styles.imageItem} />
           <p className={styles.imageDesc}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
-            ipsum aspernatur at, fugiat porro cumque laborum maiores ut illo
-            illum enim, temporibus eveniet recusandae nesciunt, labore unde
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
+            </span>
+            Facere ipsum aspernatur at, fugiat porro cumque laborum maiores ut
+            illo illum enim, temporibus eveniet recusandae nesciunt, labore unde
             blanditiis doloremque inventore.
           </p>
         </div>

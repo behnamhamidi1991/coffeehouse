@@ -35,7 +35,7 @@
   bottom: -90px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  color: rgb(255, 252, 239);
+  color: rgb(255, 241, 180);
 }
 
 .boxContainer {
@@ -44,4 +44,9 @@
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.imageDesc span {
+  color: var(--yellow-100);
+  font-weight: 700;
 }

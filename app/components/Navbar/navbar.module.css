@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  height: 60px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* :root {
+  --bg-color: #fefefe;
+  --primary-color: #10171e;
+  --text-color: #333;
+  --light-text: #283644;
+  --yellow-500: #ff7518;
+  --yellow-300: #ff5f1f;
+  --yellow-100: #f28500;
+  --red-500: #e34234;
+} */

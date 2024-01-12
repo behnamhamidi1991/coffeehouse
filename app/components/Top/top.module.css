@@ -1,0 +1,20 @@
+.container {
+  padding: 0 10%;
+  background: url("/background.jpg");
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fefefe;
+}
+
+.container h1 {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.container h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}

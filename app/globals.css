@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --bg-color: #fefefe;
+  --primary-color: #10171e;
+  --text-color: #333;
+  --light-text: #283644;
+  --yellow-500: #ff7518;
+  --yellow-300: #ff5f1f;
+  --yellow-100: #f28500;
+  --red-500: #e34234;
+}

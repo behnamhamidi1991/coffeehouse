@@ -1,7 +1,9 @@
+import Top from "./components/Top/Top";
+
 export default function Home() {
   return (
     <main>
-      <h1>Header</h1>
+      <Top />
     </main>
   );
 }

@@ -1,0 +1,43 @@
+.firstContainer {
+  padding: 0 10%;
+  margin: 100px 0;
+}
+
+.firstContainer h2 {
+  font-size: 31px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.about {
+  margin-bottom: 25px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, auto));
+  grid-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgb(229, 229, 229);
+  padding: 20px 15px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.card h4 {
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.commentImg {
+  border-radius: 50%;
+  border: 1px solid var(--yellow-500);
+  margin-bottom: 10px;
+}

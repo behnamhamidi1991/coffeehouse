@@ -72,6 +72,7 @@ const Staff = () => {
           </div>
         </div>
       </div>
+      <button className={styles.readMoreBtn}>Read More</button>
     </div>
   );
 };

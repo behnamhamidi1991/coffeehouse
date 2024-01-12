@@ -12,3 +12,7 @@
   --yellow-100: #f28500;
   --red-500: #e34234;
 }
+
+body {
+  background-color: #f9f9f9;
+}

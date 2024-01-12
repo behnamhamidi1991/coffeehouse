@@ -21,7 +21,6 @@
 
 .imageBox {
   border-radius: 10px 20px;
-  cursor: pointer;
   position: relative;
 }
 
@@ -50,4 +49,9 @@
 .social a {
   font-size: 20px;
   margin: 0 3px;
+  transition: 0.1s;
+}
+
+.social a:hover {
+  color: var(--primary-color);
 }

@@ -1,0 +1,53 @@
+.container {
+  padding: 0 10%;
+  margin: 100px 0;
+}
+
+.container h2 {
+  font-size: 31px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.container p {
+  margin-bottom: 30px;
+}
+
+.imageContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.imageBox {
+  border-radius: 10px 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.image {
+  border-radius: 4px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+  padding: 3px;
+  border-radius: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--yellow-500);
+  width: 110px;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+}
+
+.social a {
+  font-size: 20px;
+  margin: 0 3px;
+}

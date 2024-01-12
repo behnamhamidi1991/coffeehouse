@@ -56,6 +56,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
@@ -67,6 +68,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
@@ -78,6 +80,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
@@ -89,6 +92,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
@@ -100,6 +104,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
@@ -111,6 +116,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
@@ -122,6 +128,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>
@@ -133,6 +140,7 @@ const FoodStory = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
                 magnam!
+                <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
             </div>

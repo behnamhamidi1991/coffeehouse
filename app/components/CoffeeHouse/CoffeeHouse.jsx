@@ -21,14 +21,23 @@ const CoffeeHouse = () => {
       <div className={styles.imageContainer}>
         <div className={styles.boxContainer}>
           <Image src={image1} alt="coffee-shop" className={styles.imageItem} />
+          <button className={styles.reserveBtn1}>
+            Reserve a Place in Study Room
+          </button>
         </div>
 
         <div className={styles.boxContainer}>
           <Image src={image2} alt="coffee-shop" className={styles.imageItem} />
+          <button className={styles.reserveBtn2}>
+            Reserve a Place in Regular Coffee House
+          </button>
         </div>
 
         <div className={styles.boxContainer}>
           <Image src={image3} alt="coffee-shop" className={styles.imageItem} />
+          <button className={styles.reserveBtn3}>
+            Reserve a Place in Our Game Room
+          </button>
         </div>
       </div>
     </div>

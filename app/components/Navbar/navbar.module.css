@@ -1,16 +1,22 @@
+.navbar {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  background-color: var(--primary-color);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
 .list {
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary-color);
   color: #fff;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 600;
-  height: 60px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .listItem {
@@ -23,13 +29,53 @@
   border-right: 1px solid var(--yellow-300);
 }
 
-/* :root {
-  --bg-color: #fefefe;
-  --primary-color: #10171e;
-  --text-color: #333;
-  --light-text: #283644;
-  --yellow-500: #ff7518;
-  --yellow-300: #ff5f1f;
-  --yellow-100: #f28500;
-  --red-500: #e34234;
-} */
+.burgurMenu {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 648px) {
+  .list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -300px;
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 35px 10px;
+    transition: all ease-in-out 0.2s;
+  }
+
+  .listOpen {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    top: 30px;
+    background-color: var(--primary-color);
+    padding: 35px 10px;
+    transition: all ease-in-out 0.2s;
+    gap: 30px;
+  }
+
+  .listItem {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .burgurMenu {
+    display: block;
+  }
+}

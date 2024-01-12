@@ -1,11 +1,16 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import styles from "./navbar.module.css";
 import Link from "next/link";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
+  const [openMenu, setOpenMenu] = useState(false);
+
   return (
     <nav className={styles.navbar}>
-      <ul className={styles.list}>
+      <ul className={!openMenu ? styles.list : styles.listOpen}>
         <Link href="/" className={styles.listItem}>
           Home
         </Link>
@@ -25,6 +30,12 @@ const Navbar = () => {
           Contact
         </Link>
       </ul>
+      <button
+        className={styles.burgurMenu}
+        onClick={() => (!openMenu ? setOpenMenu(true) : setOpenMenu(false))}
+      >
+        {!openMenu ? <GiHamburgerMenu /> : <RxCross1 />}
+      </button>
     </nav>
   );
 };

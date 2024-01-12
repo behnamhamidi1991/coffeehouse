@@ -27,50 +27,107 @@ const FoodStory = () => {
         </p>
         <Swiper
           slidesPerView={1}
-          spaceBetween={8}
+          spaceBetween={7}
+          loop={true}
           pagination={{
             clickable: true,
           }}
           breakpoints={{
             640: {
               slidesPerView: 2,
-              spaceBetween: 20,
+              spaceBetween: 7,
             },
             768: {
               slidesPerView: 4,
-              spaceBetween: 40,
+              spaceBetween: 7,
             },
             1024: {
               slidesPerView: 5,
-              spaceBetween: 50,
+              spaceBetween: 7,
             },
           }}
           modules={[Pagination]}
           className={styles.foodStory}
         >
-          <SwiperSlide>
+          <SwiperSlide className={styles.slideItem}>
             <Image src={image1} />
+            <div className={styles.foodDesc}>
+              <h4>Bacon With Cheese</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                magnam!
+              </p>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={styles.slideItem}>
             <Image src={image2} />
+            <div className={styles.foodDesc}>
+              <h4>Fried Dessert</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                magnam!
+              </p>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={styles.slideItem}>
             <Image src={image3} />
+            <div className={styles.foodDesc}>
+              <h4>Sicilian Pasta</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                magnam!
+              </p>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={styles.slideItem}>
             <Image src={image4} />
+            <div className={styles.foodDesc}>
+              <h4>Italian Pizza</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                magnam!
+              </p>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={styles.slideItem}>
             <Image src={image5} />
+            <div className={styles.foodDesc}>
+              <h4>Pasta Alfredo</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                magnam!
+              </p>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={styles.slideItem}>
             <Image src={image6} />
+            <div className={styles.foodDesc}>
+              <h4>American Pie</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                magnam!
+              </p>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={styles.slideItem}>
             <Image src={image7} />
+            <div className={styles.foodDesc}>
+              <h4>Grilled Chicken</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                magnam!
+              </p>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={styles.slideItem}>
             <Image src={image8} />
+            <div className={styles.foodDesc}>
+              <h4>Stake With Salad</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                magnam!
+              </p>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>

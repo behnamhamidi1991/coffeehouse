@@ -21,27 +21,21 @@
 
 .imageItem {
   border-radius: 12px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .imageDesc {
   margin: 10px 0;
-  background-color: var(--primary-color);
+  background-color: #10171ee3;
   color: #fff;
-  font-size: 13px;
+  font-size: 12px;
   padding: 10px 20px;
-  border-radius: 3px 8px;
-  width: 98%;
-}
-
-.imageDesc2 {
-  margin: 10px 0;
-  background-color: var(--red-500);
-  color: #fff;
-  font-size: 13px;
-  padding: 10px 20px;
-  border-radius: 3px 8px;
-  width: 98%;
+  width: 90%;
+  line-height: 1.6;
+  position: absolute;
+  bottom: -90px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  color: rgb(255, 252, 239);
 }
 
 .boxContainer {
@@ -49,4 +43,5 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }

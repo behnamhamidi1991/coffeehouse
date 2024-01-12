@@ -23,7 +23,7 @@ const CoffeeHouse = () => {
 
         <div className={styles.boxContainer}>
           <Image src={image2} alt="coffee-shop" className={styles.imageItem} />
-          <p className={styles.imageDesc2}>
+          <p className={styles.imageDesc}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
             ipsum aspernatur at, fugiat porro cumque laborum maiores ut illo
             illum enim, temporibus eveniet recusandae nesciunt, labore unde

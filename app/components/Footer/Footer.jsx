@@ -18,82 +18,84 @@ const Footer = () => {
         <button className={styles.orderBtn}>Order</button>
       </div>
 
-      <div className={styles.linkContainer}>
-        <h4 className={styles.linkHeader}>Links</h4>
-        <ul>
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Branches
-          </Link>
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Academy
-          </Link>{" "}
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Order
-          </Link>{" "}
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Cities
-          </Link>
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Abroad
-          </Link>
-        </ul>
-      </div>
+      <div className={styles.links}>
+        <div className={styles.linkContainer}>
+          <h4 className={styles.linkHeader}>Links</h4>
+          <ul>
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Branches
+            </Link>
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Academy
+            </Link>{" "}
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Order
+            </Link>{" "}
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Cities
+            </Link>
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Abroad
+            </Link>
+          </ul>
+        </div>
 
-      <div className={styles.linkContainer}>
-        <h4 className={styles.linkHeader}>Links</h4>
-        <ul>
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Branches
-          </Link>
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Academy
-          </Link>{" "}
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Order
-          </Link>{" "}
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Cities
-          </Link>
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Abroad
-          </Link>
-        </ul>
-      </div>
+        <div className={styles.linkContainer}>
+          <h4 className={styles.linkHeader}>Extensions</h4>
+          <ul>
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Miro
+            </Link>
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Jira
+            </Link>{" "}
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Loom
+            </Link>{" "}
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Clearbit
+            </Link>
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Nevermore
+            </Link>
+          </ul>
+        </div>
 
-      <div className={styles.linkContainer}>
-        <h4 className={styles.linkHeader}>Links</h4>
-        <ul>
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Branches
-          </Link>
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Academy
-          </Link>{" "}
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Order
-          </Link>{" "}
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Cities
-          </Link>
-          <Link href="/" className={styles.linkItem}>
-            <FaChevronRight className={styles.linkIcon} />
-            Abroad
-          </Link>
-        </ul>
+        <div className={styles.linkContainer}>
+          <h4 className={styles.linkHeader}>Company</h4>
+          <ul>
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Career
+            </Link>
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              About
+            </Link>{" "}
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Blog
+            </Link>{" "}
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Status
+            </Link>
+            <Link href="/" className={styles.linkItem}>
+              <FaChevronRight className={styles.linkIcon} />
+              Newsroom
+            </Link>
+          </ul>
+        </div>
       </div>
     </footer>
   );

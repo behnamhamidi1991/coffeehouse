@@ -1,6 +1,6 @@
 .container {
   padding: 0 10%;
-  margin: 200px 0;
+  margin: 100px 0;
 }
 
 .container h2 {
@@ -33,21 +33,21 @@
 
 .social {
   display: flex;
-  flex-direction: column;
+  gap: 10px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--yellow-300);
-  padding: 5px;
+  padding: 3px 10px;
   color: #fff;
   border-radius: 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 16px;
-  left: -10px;
+  bottom: -10px;
+  right: 25px;
 }
 
 .social a {
-  font-size: 20px;
+  font-size: 17px;
   margin: 0 3px;
   transition: 0.1s;
   margin: 4px 0;

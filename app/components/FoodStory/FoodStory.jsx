@@ -55,7 +55,8 @@ const FoodStory = () => {
               <h4>Bacon With Cheese</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                magnam!
+                magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quod similique neque laboriosam.
                 <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
@@ -67,7 +68,8 @@ const FoodStory = () => {
               <h4>Fried Dessert</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                magnam!
+                magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quod similique neque laboriosam.
                 <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
@@ -79,7 +81,9 @@ const FoodStory = () => {
               <h4>Sicilian Pasta</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                magnam!
+                magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Magni, magnam! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
                 <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
@@ -91,7 +95,9 @@ const FoodStory = () => {
               <h4>Italian Pizza</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                magnam!
+                magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Magni, magnam! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quod similique neque laboriosam.
                 <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
@@ -103,7 +109,7 @@ const FoodStory = () => {
               <h4>Pasta Alfredo</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                magnam!
+                magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
@@ -115,7 +121,8 @@ const FoodStory = () => {
               <h4>American Pie</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                magnam!
+                magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quod similique neque laboriosam.
                 <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
@@ -127,7 +134,8 @@ const FoodStory = () => {
               <h4>Grilled Chicken</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                magnam!
+                magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quod.
                 <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
@@ -139,7 +147,8 @@ const FoodStory = () => {
               <h4>Stake With Salad</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                magnam!
+                magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quod similique neque laboriosam.
                 <br />
                 <button className={styles.orderBtn}>Order Now</button>
               </p>
